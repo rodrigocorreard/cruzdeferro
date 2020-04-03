@@ -1,0 +1,40 @@
+GET https://economia.awesomeapi.com.br/all/USD-BRL
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-28T053208.200.json
+
+###
+
+GET https://economia.awesomeapi.com.br/json%20/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-28T053128.404.json
+
+###
+
+POST https://economia.awesomeapi.com.br/json%20/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-28T053055.405.json
+
+###
+
+POST https://economia.awesomeapi.com.br/json%20/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-28T053011.405.json
+
+###
+
+GET https://economia.awesomeapi.com.br/json%20/all
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-03-28T053004.404.json
+
+###
+
