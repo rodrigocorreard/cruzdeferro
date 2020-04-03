@@ -199,7 +199,7 @@
                         <label for="profissao">Profissão</label>
                         <input type="text" name="profissao" id="profissao" class="form-control">
                     </div>
-                    <div class="col-md-1">
+                    <div class="col-md-2">
                         <label for="tipo_sanguineo">Tipo Sanguíneo</label>
                         <input type="text" name="tipo_sanguineo" id="tipo_sanguineo" class="form-control">
                     </div>

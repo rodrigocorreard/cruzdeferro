@@ -200,7 +200,7 @@ return [
         [
             'text'          =>  'Cadastro de Sedes',
             'icon'          =>  'fas fa-home ',
-            'icon_color'    =>  'red',
+            'icon_color'    =>  'orange',
             'url'           =>  '/sede'
         ],
         [

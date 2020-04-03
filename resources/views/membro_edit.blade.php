@@ -6,6 +6,8 @@
 
 @section('content_header')
 
+
+
 @stop
 
 @section('content')
@@ -94,14 +96,14 @@
                 </div>
                 <div class="row form-group">
                     <div class="col-md-3">
+                        <label for="cep">CEP</label>
+                            <input type="text" name="cep" id="cep" class="form-control" data-mask="99999-999"
+                                   value="{{$membro_filtro->cep}}">
+                    </div>
+                    <div class="col-md-3">
                         <label for="endereco">Endereço</label>
                         <input type="text" name="endereco" id="endereco" class="form-control"
                                value="{{$membro_filtro->endereco}}">
-                    </div>
-                    <div class="col-md-3">
-                        <label for="complemento">Complemento</label>
-                        <input type="text" name="complemento" id="complemento" class="form-control"
-                               value="{{$membro_filtro->complemento}}">
                     </div>
                     <div class="col-md-3">
                         <label for="bairro">Bairro</label>
@@ -126,9 +128,9 @@
                         </select>
                     </div>
                     <div class="col-md-3">
-                        <label for="cep">CEP</label>
-                        <input type="text" name="cep" id="cep" class="form-control" data-mask="99999-999"
-                               value="{{$membro_filtro->cep}}">
+                        <label for="complemento">Complemento</label>
+                        <input type="text" name="complemento" id="complemento" class="form-control"
+                               value="{{$membro_filtro->complemento}}">
                     </div>
                     <div class="col-md-3">
                         <label for="telefone">Telefone</label>
@@ -147,7 +149,7 @@
                         <input type="text" name="profissao" id="profissao" class="form-control"
                                value="{{$membro_filtro->profissao}}">
                     </div>
-                    <div class="col-md-1">
+                    <div class="col-md-2">
                         <label for="tipo_sanguineo">Tipo Sanguíneo</label>
                         <input type="text" name="tipo_sanguineo" id="tipo_sanguineo" class="form-control"
                                value="{{$membro_filtro->tipo_sanguineo}}">
