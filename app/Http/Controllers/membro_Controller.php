@@ -64,7 +64,7 @@ class membro_Controller extends Controller
         $data = $request->all();
         $data['categoria_cnh'] = strtoupper($data['categoria_cnh']);
         $data['tipo_sanguineo'] = strtoupper($data['tipo_sanguineo']);
-        $data['senha'] = bcrypt($data['senha']);
+        //$data['senha'] = bcrypt($data['senha']);
 
         $resultado = $membro->create($data);
 
