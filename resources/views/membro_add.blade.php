@@ -214,7 +214,7 @@
                     </div>
                     <div class="col-md-3">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" class="form-control" required>
+                        <input type="email" name="email" id="email" class="form-control">
                     </div>
 {{--                    <div class="col-md-3">
                         <label for="senha">Senha</label>
