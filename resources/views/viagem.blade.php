@@ -52,15 +52,19 @@
 @section('content')
 
     @if(session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
+        <script>
+            $(document).ready(function() {
+                toastr.success("{{session('success')}}")
+            });
+        </script>
     @endif
 
     @if(session('error'))
-        <div class="alert alert-danger">
-            {{ session('error') }}
-        </div>
+        <script>
+            $(document).ready(function() {
+                toastr.error("{{session('error')}}")
+            });
+        </script>
     @endif
 
 
@@ -78,11 +82,11 @@
                 @empty
                 <p>Nenhum registro encontrado</p>
             @endforelse
-            {{--@isset($busca)
-                <option value="{{$viagem->id}}"
-                        selected>{{$viagem->apelido.' - '.$viagem->nome}}
+            @isset($busca)
+                <option value="{{$combo->id}}"
+                        selected>{{$combo->apelido.' - '.$combo->nome}}
                 </option>
-            @endisset--}}
+            @endisset
         </select><br>
 
         <div class="row mb-3 mt-3">
@@ -95,7 +99,7 @@
             <div class="col-md-3">
                     <a href="{{ route('viagem_pdf', $busca) }}">
                         <button type="button" class="btn btn-secondary mt-2">
-                            <span class="fas fa-print"></span> Imprimir Viagens do Membro
+                            <span class="fas fa-print"></span> Imprimir Viagens do {{$combo->apelido}}
                         </button>
                     </a>
 
@@ -168,10 +172,10 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
+{{--    <link rel="stylesheet" href="/css/admin_custom.css">--}}
 @stop
 
 @section('js')
-{{--    <script> console.log('Hi!'); </script>--}}
+{{--    <script src="{{ asset('js/toastr.min.js') }}"></script>--}}
 
 @stop

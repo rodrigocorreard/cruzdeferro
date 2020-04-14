@@ -6,20 +6,66 @@
 
 @section('content_header')
 
+    <style>
+        @media (max-width: 480px) {
+
+            /* mobile Table */
+            .table-mobile {
+                display: block;
+                position: relative;
+                width: 100%;
+            }
+
+            .table-mobile thead,
+            .table-mobile tbody,
+            .table-mobile th,
+            .table-mobile td,
+            .table-mobile tr {
+                display: block;
+
+            }
+            .table-mobile td,
+            .table-mobile th {
+                height: 35px;
+            }
+
+            .table-mobile thead {
+                float: left;
+            }
+
+            .table-mobile tbody {
+                width: auto;
+                position: relative;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                white-space: nowrap;
+            }
+
+            .table-mobile tbody tr {
+                display: inline-block;
+            }
+
+        }
+    </style>
+
 @stop
 
 @section('content')
 
     @if(session('success'))
-        <div class="alert alert-success">
-            {{ session('success') }}
-        </div>
+        <script>
+            $(document).ready(function() {
+                toastr.success("{{session('success')}}")
+            });
+        </script>
     @endif
 
     @if(session('error'))
-        <div class="alert alert-danger">
-            {{ session('error') }}
-        </div>
+        <script>
+            $(document).ready(function() {
+                toastr.error("{{session('error')}}")
+            });
+        </script>
     @endif
 
 
@@ -55,7 +101,7 @@
 
     </form>
 
-            <table class="table  table-striped">
+            <table class="table  table-striped table-mobile">
                 <tr>
                     <th>Código</th>
                     <th>Apelido</th>
@@ -113,10 +159,10 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
+{{--    <link rel="stylesheet" href="/css/admin_custom.css">--}}
 @stop
 
 @section('js')
-{{--    <script> console.log('Hi!'); </script>--}}
+{{--    <script src="{{ asset('js/toastr.min.js') }}"></script>--}}
 
 @stop

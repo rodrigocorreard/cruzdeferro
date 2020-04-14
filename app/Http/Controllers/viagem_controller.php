@@ -19,7 +19,13 @@ class viagem_controller extends Controller
         $busca = $request->get('busca');
         $viagem_total = Membro::all();
         $viagem_filtro = Viagem::where('membro', $busca)->paginate(10);
-        return view('viagem', compact('viagem_filtro', 'busca', 'viagem_total'));
+        $combo = Membro::find($busca);
+
+/*        if (isset($busca)) {
+            $viagem_filtro = Viagem::where('membro', $busca)->paginate(10);
+        }*/
+
+        return view('viagem', compact('viagem_filtro', 'busca', 'viagem_total', 'combo'));
     }
 
     /**
