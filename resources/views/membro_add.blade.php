@@ -6,7 +6,7 @@
 
 @section('content_header')
 
-
+    <script src="{{ asset('js/consulta_cep.js') }}"></script>
 
         <script type="text/javascript" >
 
@@ -159,7 +159,7 @@
 
                     <div class="col-md-3">
                         <label for="endereco">Endereço</label>
-                        <input type="text" name="endereco" id="endereco" class="form-control">
+                        <input type="text" name="endereco" id="endereco" class="form-control" data-mask="99999-999">
                     </div>
                     <div class="col-md-3">
                         <label for="bairro">Bairro</label>
@@ -315,10 +315,10 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
+{{--    <link rel="stylesheet" href="/css/admin_custom.css">--}}
 @stop
 
 @section('js')
     {{--    <script> console.log('Hi!'); </script>--}}
-    {{--<script src="js/jquery.mask.min.js"></script>--}}
+{{--    <script src="jquery.mask.min.js"></script>--}}
 @stop
