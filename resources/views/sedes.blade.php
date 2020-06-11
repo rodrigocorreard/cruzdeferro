@@ -79,10 +79,10 @@
                     <div class="row">
                         <div class="col-7">
                             <br>
-                            <h2 class="lead"><b>Ubatuba</b></h2>
+                            <h2 class="lead"><b>Ubatuba - SP</b></h2>
                             <p class="text-muted text-sm"><b>Presidente: </b>  Beto </p>
-                            <ul class="ml-0 mb-0 fa-ul text-muted">
-                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span> Endereço: Rua Adamastor da Silva, 123 - Centro </li>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
                                 <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
                             </ul>
                         </div>
@@ -112,10 +112,10 @@
                     <div class="row">
                         <div class="col-7">
                             <br>
-                            <h2 class="lead"><b>Taubaté</b></h2>
+                            <h2 class="lead"><b>Taubaté - SP</b></h2>
                             <p class="text-muted text-sm"><b>Diretor: </b>  Diegão </p>
-                            <ul class="ml-0 mb-0 fa-ul text-muted">
-                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-building"></i></span>Av Agostinho Manfredine, 2848 - Pq Vera Cruz </li>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
                                 <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
                             </ul>
                         </div>
@@ -135,6 +135,964 @@
                 </div>
             </div>
         </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Cunha - SP</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Claudião </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/claudiao.png')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Caraguatatuba - SP</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Edilson </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/edilson.jpeg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>São José dos Campos - SP</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Jimmy </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/jimmy.jpeg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Jacareí - SP</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Pulguinha </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/pulguinha.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>São Paulo - SP</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Beto Amazonas </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Leme - SP</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Beto </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/betoleme2.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Serra Negra - SP</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Marcos Vinícios </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>S.J. Rio Preto - SP</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Chaim </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/chaim.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Goiânia - GO</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Oliveira </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Valparaíso - GO</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Gardenal </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Brasília - DF</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Alfredo </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Planaltina - GO</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Cientista </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Natal - RN</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b> Ziprex </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Belo Horizonte - MG</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Anderson </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/anderson.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Poços de Caldas - MG</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Joanilson </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Macaé - RJ</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Montenegro </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Rio das Ostras - RJ</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Miro </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>São Pedro da Aldeia - RJ</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Xegajunto </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Saquarema - RJ</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b> Konan </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Rio de Janeiro - RJ</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  7velas </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Angra dos Reis - RJ</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b> Dedé </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Curitiba - PR</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Empada </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Resende - RJ </b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Jorge Maluko </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/jorge.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Recife - PE</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b> Fumaça </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>João Pessoa - PB</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Ary </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Orizona - GO</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b> Tirulipa </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Baixada - RJ</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b> Taliban </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Formosa - GO</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b>  Cientista </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch " style="margin-top: 30px">
+            <div class="card bg-light">
+                <div class="card-header text-muted border-bottom-0">
+                    Sub-Sede
+                </div>
+                <div class="card-body pt-0">
+                    <div class="row">
+                        <div class="col-7">
+                            <br>
+                            <h2 class="lead"><b>Paraty - RJ</b></h2>
+                            <p class="text-muted text-sm"><b>Diretor: </b> Alf </p>
+                            <ul class="ml-0 mb-0 fa-ul text-muted"  style="list-style-type: none;">
+                                <li class="small">Contato </li>
+                                <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span>(12) 99781-0515</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-5 text-center">
+                            <img src="{{asset('imagens/avatar.jpg')}}" alt="" class="img-circle img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="text-right">
+                        <a href="#" class="btn btn-sm bg-teal">
+                            <i class="fas fa-comments"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         </div>
     </div>

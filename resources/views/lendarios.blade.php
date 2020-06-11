@@ -135,32 +135,152 @@
     @endif
 
 
-        <div class="container">
-            <br><br>
-            <ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm ">
-                <div class="text-center">
+    <div class="container">
+        <br><br>
+        <ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm" style="list-style-type: none;">
+            <div class="text-center">
                 <li>
-                    <img src="{{asset('imagens/beto1.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                    <img src="{{asset('imagens/beto2.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
                     <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Luiz Roberto Sant'anna de Paula (Beto)</h5>
                     <p >Data de Ingresso: Fundador</p>
                     <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/avatar.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Vander</h5>
+                        <p >Data de Ingresso: Fundador</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
                 </li>
 
 
                 <li>
                     <hr>
                     <div style="margin-top: 40px">
-                    <img src="{{asset('imagens/bodao1.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
-                    <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Kleber Barozzi (Bodão)</h5>
-                    <p >Data de Ingresso: 10/06/2002</p>
-                    <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Taubaté - SP</small>
+                        <img src="{{asset('imagens/bodao1.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Kleber Barozzi (Bodão)</h5>
+                        <p >Data de Ingresso: 10/06/2002</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Taubaté - SP</small>
+                    </div>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/bitoka.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Darcio Castilho (Bitoka)</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/1000ton.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Miltao</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/ciro.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Ciro</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/dedecf.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Dedé</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Angra dos Reis - RJ</small>
+                    </div>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/tuta.jpeg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Tuta</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/serginhocf.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Serginho papo 10</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/avatar.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Ventania</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/avatar.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Marivaldo</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
                     </div>
                 </li>
 
 
-                </div>
-            </ul>
-        </div>
+
+
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/avatar.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">7velas</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Rio de Janeiro - RJ</small>
+                    </div>
+                </li>
+
+
+
+
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/avatar.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Di</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
+
+
+
+
+            </div>
+        </ul>
+    </div>
 
 
 
