@@ -230,6 +230,16 @@
                 <li>
                     <hr>
                     <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/claudiao.png')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Claudião</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Cunha - SP</small>
+                    </div>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
                         <img src="{{asset('imagens/avatar.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
                         <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Ventania</h5>
                         <p >Data de Ingresso: --</p>
@@ -261,10 +271,6 @@
                     </div>
                 </li>
 
-
-
-
-
                 <li>
                     <hr>
                     <div style="margin-top: 40px">
@@ -275,7 +281,57 @@
                     </div>
                 </li>
 
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/avatar.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Costa</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
 
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/avatar.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Lobisomem</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
+
+
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/avatar.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Sete carça</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/avatar.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Profeta</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
+
+                <li>
+                    <hr>
+                    <div style="margin-top: 40px">
+                        <img src="{{asset('imagens/avatar.jpg')}}" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
+                        <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Djair (in memorian)</h5>
+                        <p >Data de Ingresso: --</p>
+                        <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Ubatuba - SP</small>
+                    </div>
+                </li>
 
 
             </div>
