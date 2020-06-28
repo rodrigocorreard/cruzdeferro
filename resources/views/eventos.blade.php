@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+    <link type="text/css" rel="stylesheet" href="css/lightGallery.css" />
     <!-- Styles -->
     <style>
         html, body {
@@ -43,6 +43,96 @@
         }
     </style>
 
+    <style>
+
+        #videos a {
+            display: block;
+            width: 25%;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            padding: 0 10px;
+            float: left;
+            cursor: pointer;
+            text-decoration: none;
+            outline: 0;
+        }
+
+        #videos a:hover {
+            opacity: 0.7;
+        }
+
+        #videos a img {
+            width: 100%;
+            height: auto;
+        }
+
+        #overlay {
+            background: rgba(0,0,0,0.8);
+            position:fixed;
+            top: 0;
+            right: 0;
+            left:0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 99999;
+            display: none;
+        }
+
+        #overlay .modal {
+            background: #fff;
+            border-radius: 5px;
+            width: 90%;
+            margin: 100px auto;
+            max-width: 800px;
+            min-height: 100px;
+            position: relative;
+            padding: 30px 20px 15px;
+        }
+
+        #overlay .modal #close {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            cursor: pointer;
+        }
+
+        #overlay iframe {
+            width: 100%;
+        }
+    </style>
+
+    <style media="screen">
+        .collapse-content .fa.fa-heart:hover {
+            color: #f44336 !important;
+        }
+        .collapse-content .fa.fa-share-alt:hover {
+            color: #0d47a1 !important;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        .nav>li>a {
+            color: white;
+        }
+
+
+        .nav-pills > li > a {
+            background: black;  /* your preferred color */
+        }
+
+        .nav-pills > li > a.active {
+            background-color: #1f1f2e !important;
+        }
+
+    </style>
+
+
 </head>
 <body>
 
@@ -63,27 +153,66 @@
             @endauth
         </div>
     @endif
+        <br>
+<div class="container">
 
-        <div class="container-fluid" style="margin-top: 30px">
+    <ul class="nav nav-pills nav-fill mb-3 mt-4" id="pills-tab" role="tablist" style="padding-left: 10px; padding-right: 10px">
+        <li class="nav-item" >
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Flyers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"> Media Vídeos</a>
+        </li>
 
+    </ul>
+    <div class="tab-content" id="pills-tabContent" style="padding-left: 10px; padding-right: 10px">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row text-center">
+                <div class="col-12">
+                    <img src="imagens/flyer_cf2.jpeg" alt="thumbnail" class="img-thumbnail rounded center mt-3" style="width: 300px">
+                </div>
+            </div>
+            <br>
             <div class="row text-center">
                 <div class="col-12">
                     <img src="imagens/evento.jpg" alt="thumbnail" class="img-thumbnail rounded center mt-3" style="width: 300px">
                 </div>
             </div>
+            <br>
             <div class="row text-center">
                 <div class="col-12">
-                    <img src="{{asset('imagens/pegada1.jpeg')}}" alt="thumbnail" class="img-thumbnail rounded center mt-3" style="width: 300px">
+                    <img src="imagens/flyer_cf.jpeg" alt="thumbnail" class="img-thumbnail rounded center mt-3" style="width: 300px">
                 </div>
             </div>
+            <br>
             <div class="row text-center">
                 <div class="col-12">
-                    <img src="imagens/pegada2.jpeg" alt="thumbnail" class="img-thumbnail rounded center mt-3" style="width: 300px">
+                    <img src="imagens/pegada4.jpeg" alt="thumbnail" class="img-thumbnail rounded center mt-3" style="width: 300px">
+                </div>
+            </div>
+            <br>
+            <div class="row text-center">
+                <div class="col-12">
+                    <img src="imagens/pegada3.jpeg" alt="thumbnail" class="img-thumbnail rounded center mt-3" style="width: 300px">
                 </div>
             </div>
 
         </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" style="padding-left: 15px; padding-right: 15px">
+
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container '><iframe src='https://www.youtube.com/embed//PHwVnYFbYK0' frameborder='0' allowfullscreen></iframe></div>  <p class="text-center mt-3">Scorpions - Wind of Change</p><br>
+
+            <br>
+            <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//wAUx4T6IWNo' frameborder='0' allowfullscreen></iframe></div>  <p class="text-center mt-3"> CCR - Put a candle in the window</p><br>
+        </div>
+
 </div>
+</div>
+
+
+
+
+
 
 
 
