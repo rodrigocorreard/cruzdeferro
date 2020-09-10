@@ -43,7 +43,7 @@
                <div class="row form-group">
                     <div class="col-md-4">
                         <label for="ida">Ida</label>
-                        <input type="date" name="ida" id="ida" class="form-control" required >
+                        <input type="date" name="ida" id="ida" class="form-control"  >
                     </div>
                     <div class="col-md-4">
                         <label for="retorno">Retorno</label>
