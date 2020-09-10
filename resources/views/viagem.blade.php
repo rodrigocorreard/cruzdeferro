@@ -123,8 +123,8 @@
                     <tr>
                         <td>{{ $viagemF->id }}</td>
                         <td>{{ $viagemF->graduacao }}</td>
-                        <td>{{ date('d/m/Y', strtotime($viagemF->ida)) }}</td>
-                        <td>{{ date('d/m/Y', strtotime($viagemF->retorno)) }}</td>
+                        <td>{{ date(`d/m/Y`, strtotime($viagemF->ida)) }}</td>
+                        <td>{{ date(`d/m/Y`, strtotime($viagemF->retorno)) }}</td>
                         <td>{{ $viagemF->destino }}</td>
 
                         <td>
