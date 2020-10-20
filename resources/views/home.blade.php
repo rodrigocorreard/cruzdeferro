@@ -53,6 +53,28 @@
 
     </section>
 
+            <div class="col-md-3">
+        <div class="card card-primary">
+                <div class="card-header">
+                    <h3 class="card-title">Aniversariantes do Mês</h3>
+
+                    <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
+                    </button>
+                    </div>
+                    <!-- /.card-tools -->
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                    @foreach ( $aniversariantes as $aniversariante )
+                        <span>{{$aniversariante->apelido}} - {{ date('d/m', strtotime($aniversariante->nascimento)) }}</span><br>
+                    @endforeach
+                </div>
+                <!-- /.card-body -->
+                </div>
+                </div>
+
+
 
 
 @stop

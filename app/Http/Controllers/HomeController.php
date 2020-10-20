@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
 
 class HomeController extends Controller
 {
@@ -23,9 +24,13 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $aniversariantes = DB::table('membros')
+                ->whereRaw('month(nascimento) = month(now())')
+                ->orderbyraw('nascimento DESC')
+                ->get();
 
         $url_dolar = 'https://economia.awesomeapi.com.br/all/USD-BRL';
         $dolar = json_decode(file_get_contents($url_dolar));
-        return view('home', compact('dolar'));
+        return view('home', compact('dolar', 'aniversariantes'));
     }
 }
