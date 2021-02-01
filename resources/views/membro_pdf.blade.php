@@ -71,8 +71,13 @@
         <div class="column"><p>Padrinho: {{$usuario->padrinho}}</p></div>
     </div>
     <div class="row">
-        <div class="column"><p>Data do Ingresso: {{ date("d/m/Y", strtotime($usuario->ingresso))}}</p></div>
-        <div class="column"><p>Sub Sede: {{$usuario->sede}}</p></div>
+    @if ($usuario->ingresso !== null)
+    <div class="column"><p>Data do Ingresso: {{ date("d/m/Y", strtotime($usuario->ingresso))}}</p></div>
+    @else
+    <div class="column"><p>Data do Ingresso: __/__/____</p></div>
+    @endif
+        
+    <div class="column"><p>Sub Sede: {{$usuario->sede}}</p></div>
     </div>
     <hr>
     <h4>Dados Pessoais</h4>
@@ -90,7 +95,12 @@
         <div class="column"><p>Vencimento CNH: {{date("d/m/Y", strtotime($usuario->vencimento_cnh))}}</p></div>
     </div>
     <div class="row">
-        <div class="column"><p>Data Nascimento: {{date("d/m/Y", strtotime($usuario->nascimento))}}</p></div>
+    @if ($usuario->nascimento !== null)
+    <div class="column"><p>Data Nascimento: {{date("d/m/Y", strtotime($usuario->nascimento))}}</p></div>
+    @else
+    <div class="column"><p>Data Nascimento: __/__/____ </p></div>
+    @endif
+        
         <div class="column"><p>Naturalidade: {{$usuario->naturalidade}}</p></div>
     </div>
     <div class="row">
@@ -123,14 +133,46 @@
     <hr>
     <br>
     <h5>Progresso da Graduação:</h5>
-    <p> Meio Escudo: {{date("d/m/Y", strtotime($usuario->meio_escudo))}}</p>
+    
+    @if ($usuario->meio_escudo !== null)
+        <p> Meio Escudo: {{date("d/m/Y", strtotime($usuario->meio_escudo))}}</p>
+    @else
+        <p> Meio Escudo: __/__/____</p>
+    @endif
+
+    @if ($usuario->escudo_fechado !== null)
     <p>Escudo Fechado: {{date("d/m/Y", strtotime($usuario->escudo_fechado))}}</p>
+    @else
+        <p> Escudo Fechado: __/__/____</p>
+    @endif
+
+    @if ($usuario->lendario !== null)
     <p> Lendário: {{date("d/m/Y", strtotime($usuario->lendario))}}</p>
+    @else
+        <p> Lendário: __/__/____</p>
+    @endif
+ 
     <br>
     <h5>Afastamentos:</h5>
+
+    @if ($usuario->data_afastamento1 !== null)
     <p>De {{date("d/m/Y", strtotime($usuario->data_afastamento1))}} Motivo:{{ ' '.$usuario->afastamento1}}</p>
+    @else
+    <p>De __/__/____ Motivo:{{ ' '.$usuario->afastamento1}}</p>
+    @endif
+
+    @if ($usuario->data_afastamento2 !== null)
     <p>De {{date("d/m/Y", strtotime($usuario->data_afastamento2))}} Motivo:{{ ' '.$usuario->afastamento2}}</p>
+    @else
+    <p>De __/__/____ Motivo:{{ ' '.$usuario->afastamento2}}</p>
+    @endif
+
+    @if ($usuario->data_afastamento3 !== null)
     <p>De {{date("d/m/Y", strtotime($usuario->data_afastamento3))}} Motivo:{{ ' '.$usuario->afastamento3}}</p>
+    @else
+    <p>De __/__/____ Motivo:{{ ' '.$usuario->afastamento3}}</p>
+    @endif
+
     <br>
     <h4>Anotações Gerais:</h4>
     <p>{{$usuario->anotacao}}</p>

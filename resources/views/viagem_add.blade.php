@@ -57,7 +57,7 @@
                <br>
 
                 <div class="text-left">
-                    <a href="{{ route('membro.index') }}" class="btn btn-warning"><i class="fas fa-arrow-left"></i> Cancelar</a>
+                    <a href="{{ route('viagem.index') }}" class="btn btn-warning"><i class="fas fa-arrow-left"></i> Cancelar</a>
                     <button class="btn btn-success" type="submit"><i class="fas fa-check"></i> Gravar</button>
                 </div>
 

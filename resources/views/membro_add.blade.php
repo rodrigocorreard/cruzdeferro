@@ -93,11 +93,11 @@
                 <div class="row form-group">
                     <div class="col-md-3">
                         <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" class="form-control" required >
+                        <input type="text" name="nome" id="nome" class="form-control"  >
                     </div>
                     <div class="col-md-3">
                         <label for="apelido">Apelido</label>
-                        <input type="text" name="apelido" id="apelido" class="form-control" required >
+                        <input type="text" name="apelido" id="apelido" class="form-control"  >
                     </div>
                     <div class="col-md-3">
                         <label for="padrinho">Padrinho</label>
@@ -218,7 +218,7 @@
                     </div>
 {{--                    <div class="col-md-3">
                         <label for="senha">Senha</label>
-                        <input type="password" name="senha" id="senha" class="form-control" required>
+                        <input type="password" name="senha" id="senha" class="form-control" >
                     </div>--}}
                 </div>
                 <div class="row form-group">

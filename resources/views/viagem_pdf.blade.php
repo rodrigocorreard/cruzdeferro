@@ -85,8 +85,19 @@
             <tr>
                 <td>{{ $viagemF->id }}</td>
                 <td>{{ $viagemF->graduacao }}</td>
-                <td>{{ date('d/m/Y', strtotime($viagemF->ida)) }}</td>
-                <td>{{ date('d/m/Y', strtotime($viagemF->retorno)) }}</td>
+
+                @if ($viagemF->ida !== null)
+                    <td>{{ date('d/m/Y', strtotime($viagemF->ida)) }}</td>
+                @else
+                    <td> 0/00/0000</td>
+                @endif
+
+                @if ($viagemF->retorno !== null)
+                    <td>{{ date('d/m/Y', strtotime($viagemF->retorno)) }}</td>
+                @else
+                    <td> 0/00/0000</td>
+                @endif
+
                 <td>{{ $viagemF->destino }}</td>
 
                 <td>
